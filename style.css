@@ -80,11 +80,9 @@ height: 250px;
 	padding: 3px 0px;
 }
 .second_r {
-	border: 1px solid;
 	margin: 6% 5%;
-	
-	
 	overflow: auto;
+	box-shadow: 0px 0px 20px;
 }
 .second_r_left {
 		font-family: sans-serif;
@@ -136,4 +134,13 @@ height: 250px;
 	float: right;
 	background-image: url(magic.jpg);
 	clip-path: polygon(37% 0, 100% 0, 100% 100%, 0% 100%);
+}
+.third_icons {
+	background-image: url(footer.png);
+	height: 200px;
+}
+.third_icons_footer {
+	background-color: rgb(128,0,128);
+	padding: 2px;
+	text-align: center;
 }
