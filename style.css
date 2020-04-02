@@ -1,0 +1,139 @@
+body {
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) ,url(background.png);
+	background-size: cover;
+	margin: 0px;
+	padding: 0px;
+	background-attachment: fixed;
+}
+.first {
+	padding: 1%;
+
+}
+.first_header {
+	overflow: hidden;
+}
+.first_header_link a {
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+	font-family: sans-serif;
+}
+.buttons {
+	text-transform: uppercase;
+	font-size: 25px;
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+	cursor: pointer;
+	text-align: center;
+	border: none;
+}
+.first_header_link {
+	float: left;
+	padding: 1%;
+}
+.first_header_nav {
+	float: right;
+	position: fixed;
+	top: 4%;
+	right: 6%;
+	overflow: auto;
+	z-index: 1;
+}
+.first_header_nav button {
+    padding: 10px;
+	margin: 0px 6px;	
+	border-radius: 5px;
+}
+.first_logo {
+position: relative;
+margin: 2.5%;
+height: 250px;
+}
+.first_logo img {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,0);
+	opacity: 0.9;
+	overflow: hidden;
+}
+.first_title {
+	color: white;
+	font-size: 120px;
+	text-align: center;
+	font-family: sans-serif;
+	padding-top: 0px;
+	margin: 0px;
+}
+.first_options {
+	text-align: center;
+}
+.first_options button {
+	padding: 18px;
+	border-radius: 35px;
+	border: 2px solid white;
+	margin: 25px 15px;
+}
+.second {
+	margin: 0px;
+	background-color: rgba(255,255,255,1.0);
+	padding: 3px 0px;
+}
+.second_r {
+	border: 1px solid;
+	margin: 6% 5%;
+	
+	
+	overflow: auto;
+}
+.second_r_left {
+		font-family: sans-serif;
+		margin: 0px;
+		width: 70%;
+		font-size: 18px;
+		line-height: 180%;
+		margin-bottom: 20px;
+		float: left;
+		padding: 6px;
+		height: 100%;
+		box-sizing: border-box;
+}
+.second_r_left h2 {
+	text-transform: uppercase;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	padding: 16px 0px;
+	margin: 0px;
+}
+.second_r_left button {
+	text-transform: uppercase;
+	padding: 10px;
+	background-color: white;
+	color: rgba(34, 167, 240, 1);
+	border: 1.5px solid rgba(34, 167, 240, 1);
+	border-radius: 3px;
+	margin: 0px;
+}
+.second_r_right {
+	width: 30%;
+	box-sizing: border-box;
+	display: inline;
+	height: 300px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#r1 {
+	float: right;
+	background-image: url(vintage.jpg);
+	clip-path: polygon(37% 0, 100% 0, 100% 100%, 0% 100%);
+}
+#r2 {
+	float: left;
+	background-image: url(quiz.jpg);
+	clip-path: polygon(0 0, 59% 0, 100% 100%, 0% 100%);
+}
+#r3 {
+	float: right;
+	background-image: url(magic.jpg);
+	clip-path: polygon(37% 0, 100% 0, 100% 100%, 0% 100%);
+}
